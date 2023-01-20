@@ -1,0 +1,91 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.app_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+/* SIDEBAR */
+.sidebar {
+  border-right: 5px solid red;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 2fr;
+}
+/* target all links */
+.sidebar a {
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.4s ease-out;
+  font-weight: 600;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+/* inactive links */
+.sidebar_link:before {
+  content: "";
+  position: absolute;
+  background: #475569;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 100%;
+  z-index: -1;
+  transition: left 0.2s ease-in;
+}
+.sidebar_link:hover:before {
+  left:0;
+}
+.sidebar_link {
+  transition: 500ms;
+  z-index: 1;
+  transition:         0.08s ease-in;
+}
+.sidebar_link:hover {
+  transition: 300ms;
+  color: whitesmoke;
+
+}
+/* active links */
+.sidebar .active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(45 96 169 / var(--tw-bg-opacity));
+}
+/* sidebar footer */
+.sidebar_footer {
+  width: 100%;
+  text-align: center;
+  border-top: solid 2px;
+}
+.sidebar_footer span {
+  margin-top: 1rem;
+}
+
+/* main content */
+.content_wrapper {
+  min-height: 100vh;
+  background: url("./img/sky-stars.gif");
+  display: flex;
+  align-items: center;
+  position: relative;
+}
