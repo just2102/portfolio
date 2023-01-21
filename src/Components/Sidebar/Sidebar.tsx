@@ -11,7 +11,6 @@ const Sidebar = () => {
   }
   let links:Array<Link> = [
     { link: "/home", name: "Home", },
-    { link: "/about", name: "About", },
     { link: "/resume", name: "Resume",},
     { link: "/portfolio", name: "Portfolio", },
     { link: "/contact", name: "Contact", },
@@ -24,7 +23,7 @@ const Sidebar = () => {
   });
   return (
     <>
-    <div className="sidebar bg-slate-900 text-slate-300">
+    <div className="sidebar bg-slate-900 text-slate-300 z-1">
       <div className="sidebar_logo">justWeb Logo</div>
       {linksMapped}
       <p className="sidebar_footer">
