@@ -5,7 +5,6 @@ import "./App.css";
 import Contact from "./Components/Contact/Contact";
 import Home from "./Components/Home/Home";
 import PortfolioContainer from "./Components/Portfolio/PortfolioContainer";
-import Resume from "./Components/Resume/Resume";
 import Sidebar from "./Components/Sidebar/Sidebar";
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
       <div className="content_wrapper bg-slate-700 text-slate-300">
       <Routes>
         <Route path="/home" element={<Home/>}></Route>
-        <Route path="/resume" element={<Resume/>}></Route>
         <Route path="/portfolio" element={<PortfolioContainer/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
       </Routes>

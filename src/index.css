@@ -29,7 +29,7 @@ code {
   display: grid;
   align-items: center;
   justify-items: center;
-  grid-template-rows: 2fr 1fr 1fr 1fr 1fr 2fr;
+  grid-template-rows: 2fr 1fr 1fr 1fr 2fr;
   z-index: 1;
 }
 /* target all links */
@@ -118,6 +118,7 @@ code {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 32%));
   grid-gap: 20px;
+  background-color: #0f172a
 }
 
 .portfolio_project {
@@ -132,6 +133,9 @@ code {
   margin: 0;
   padding: 10px;
   text-align: center;
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: larger;
 }
 
 .portfolio_project img {
@@ -145,14 +149,49 @@ code {
   text-align: center;
   font-size: 14px;
 }
-
-/* .portfolio_project .icon {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  display: none;
+/* img container with links on hover */
+@keyframes slideIn {
+  from {
+      bottom:5rem;
+  }
+  to {
+      bottom:-10rem;
+  }
 }
-.portfolio_project:hover .icon {
-  display: block;
-} */
+.portfolio_project:hover .project_links {
+  animation: slideIn 0.5s ease-in forwards;
+  visibility: visible;
+}
+.portfolio_project:hover .project_img {
+  opacity: 0.5;
+}
 
+/* links themselves */
+.project_links {
+  position: absolute;
+  display: flex;
+  width:100%;
+  justify-content: center;
+  left: 50%;
+  top:20%;
+  bottom: -100px;
+  transform: translate(-50%, -50%);
+  visibility:hidden;
+}
+.project_links img {
+  width:80px;
+  height:80px;
+  transition: 200ms;
+}
+.project_links img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+/*  */
+.project_name {
+  position: relative;
+}
+.project_name:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px #2d3a58;
+}

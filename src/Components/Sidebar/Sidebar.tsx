@@ -11,7 +11,6 @@ const Sidebar = () => {
   }
   let links:Array<Link> = [
     { link: "/home", name: "Home", },
-    { link: "/resume", name: "Resume",},
     { link: "/portfolio", name: "Portfolio", },
     { link: "/contact", name: "Contact", },
   ];

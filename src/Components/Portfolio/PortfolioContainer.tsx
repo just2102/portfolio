@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 const PortfolioContainer = () => {
   const [repos, setRepos] = useState([
-    {id:1, live:'https://just2102.github.io/InContact/', github:'https://github.com/just2102/InContact', img:'https://user-images.githubusercontent.com/88230737/213840535-1844430c-47d2-4d25-b32c-dc570d6d3199.png', name:'InContact — A Social Network',desc:'This is a full-scale React SPA built with Redux, Thunk MW and react-hook-form'},
+    {id:1,  live:'https://just2102.github.io/InContact/', github:'https://github.com/just2102/InContact', img:'https://user-images.githubusercontent.com/88230737/213840535-1844430c-47d2-4d25-b32c-dc570d6d3199.png', name:'InContact — A Social Network',desc:'A full-scale React SPA built with Redux, Thunk MW and react-hook-form'},
     {id:2, live:'https://just2102.github.io/Rock-Paper-Scissors/', github:'https://github.com/just2102/Rock-Paper-Scissors', img:'https://user-images.githubusercontent.com/88230737/213845137-f280acb7-38f4-47bb-a161-7a95efba3cb7.png', name:'Rock, Paper, Scissors',desc:'One of my first projects built with Vanilla JS and modern CSS'},
     {id:3, live:'https://livechat-d1046.web.app/', github:'https://github.com/just2102/livechat', img:'https://user-images.githubusercontent.com/88230737/213845183-ea96e612-40c8-493c-8962-85b3adad22b0.png', name:'Livechat',desc:'Chat SPA built with React & Firestore'},
     {id:4, live:'https://just2102.github.io/Calculator/', github:'https://github.com/just2102/Calculator', img:'https://user-images.githubusercontent.com/88230737/213842673-1eb85848-3cff-41e3-b004-33b2ae171fde.png', name:'Calculator',desc:'A simple but beautiful calculator I made with Vanilla JS'},
