@@ -126,8 +126,10 @@ code {
 .homepage {
   min-height: 100vh;
   text-align: center;
+  padding:15px;
 }
 .homepage .text {
+  border-radius: 10px;
   font-family: "quicksandbold";
   font-size: xx-large;
   display: flex;
