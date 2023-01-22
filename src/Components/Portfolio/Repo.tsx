@@ -1,6 +1,6 @@
-import { RepoType } from './Portfolio'
 import gitwhite from "../../img/github-mark-white.svg"
 import livelinkwhite from "../../img/link-white.png"
+import { RepoType } from "./PortfolioContainer"
 
 const Repo = (repo:RepoType) => {
   return (
@@ -10,8 +10,8 @@ const Repo = (repo:RepoType) => {
       </div>
       <h2 className="project_name">{repo.name}
         <div className='project_links'>
-          <a href={repo.github}><img src={gitwhite} alt="" /></a>
-          <a href={repo.live}><img src={livelinkwhite} alt="" /></a>
+          <a target={"_blank"} href={repo.github} rel="noreferrer"><img src={gitwhite} alt="" /></a>
+          <a target={"_blank"} href={repo.live} rel="noreferrer"><img src={livelinkwhite} alt="" /></a>
         </div>
       </h2>
       <p className="project_desc">{repo.desc}</p>
