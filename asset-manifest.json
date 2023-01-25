@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ce3db877.css",
-    "main.js": "/portfolio/static/js/main.9fb1d2b2.js",
+    "main.css": "/portfolio/static/css/main.69dfabdd.css",
+    "main.js": "/portfolio/static/js/main.ea711846.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/react.png": "/portfolio/static/media/react.35639ed930462bfcd544.png",
     "static/media/armwrestler-webfont.woff": "/portfolio/static/media/armwrestler-webfont.e43c9d77a81471ba5cff.woff",
@@ -18,12 +18,12 @@
     "static/media/redux.svg": "/portfolio/static/media/redux.e1218a5fd6777167b07aaf34532b4b15.svg",
     "static/media/github-mark-white.svg": "/portfolio/static/media/github-mark-white.97ed8e7eef60d61ca469881dd6f34511.svg",
     "index.html": "/portfolio/index.html",
-    "main.ce3db877.css.map": "/portfolio/static/css/main.ce3db877.css.map",
-    "main.9fb1d2b2.js.map": "/portfolio/static/js/main.9fb1d2b2.js.map",
+    "main.69dfabdd.css.map": "/portfolio/static/css/main.69dfabdd.css.map",
+    "main.ea711846.js.map": "/portfolio/static/js/main.ea711846.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce3db877.css",
-    "static/js/main.9fb1d2b2.js"
+    "static/css/main.69dfabdd.css",
+    "static/js/main.ea711846.js"
   ]
 }
