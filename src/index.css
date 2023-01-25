@@ -261,3 +261,24 @@ code {
   cursor: pointer;
   box-shadow: 1px 1px #2d3a58;
 }
+
+
+/* resume */
+.resume {
+  display: flex;
+  flex-direction: column;
+  gap:5rem;
+}
+.resume .buttons {
+  display: flex;
+  gap:3rem;
+  justify-content: center;
+  align-items: center;
+}
+.resume .btn_active {
+  padding:4px;
+  background-color: #42464f;
+}
+.resume iframe {
+  height:30rem;
+}
