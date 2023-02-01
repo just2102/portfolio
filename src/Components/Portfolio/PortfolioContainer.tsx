@@ -21,19 +21,19 @@ const PortfolioContainer = () => {
     },
     {
       id: 2,
-      live: "https://just2102.github.io/Rock-Paper-Scissors/",
-      github: "https://github.com/just2102/Rock-Paper-Scissors",
-      img: "https://user-images.githubusercontent.com/88230737/213845137-f280acb7-38f4-47bb-a161-7a95efba3cb7.png",
-      name: "Rock, Paper, Scissors",
-      desc: "One of my first projects built with Vanilla JS and modern CSS",
-    },
-    {
-      id: 3,
       live: "https://livechat-d1046.web.app/",
       github: "https://github.com/just2102/livechat",
       img: "https://user-images.githubusercontent.com/88230737/213845183-ea96e612-40c8-493c-8962-85b3adad22b0.png",
       name: "Livechat",
       desc: "Chat SPA built with React & Firestore",
+    },
+    {
+      id: 3,
+      live: "https://just2102.github.io/Checkers.JS/",
+      github: "https://github.com/just2102/Checkers.JS",
+      img: "https://user-images.githubusercontent.com/88230737/215968964-e1587260-badb-4909-a97e-8d3c03bba917.png",
+      name: "Checkers.JS",
+      desc: "Checkers game made with Vanilla JavaScript",
     },
     {
       id: 4,
@@ -45,6 +45,14 @@ const PortfolioContainer = () => {
     },
     {
       id: 5,
+      live: "https://just2102.github.io/Rock-Paper-Scissors/",
+      github: "https://github.com/just2102/Rock-Paper-Scissors",
+      img: "https://user-images.githubusercontent.com/88230737/215971902-6b2b0d4a-aab8-458f-8ea0-95a60e571422.png",
+      name: "Rock, Paper, Scissors",
+      desc: "Classic game built with Vanilla JS and modern CSS",
+    },
+    {
+      id: 6,
       live: "https://just2102.github.io/Weather-App/",
       github: "https://github.com/just2102/Weather-App",
       img: "https://user-images.githubusercontent.com/88230737/213844875-75c86605-04d3-4091-b7fc-8319ad32dc21.png",
@@ -52,20 +60,12 @@ const PortfolioContainer = () => {
       desc: "Uses Google and Open Weather API to display weather anywhere in the world",
     },
     {
-      id: 6,
+      id: 7,
       live: "https://just2102.github.io/To-Do-List/",
       github: "https://github.com/just2102/To-Do-List",
       img: "https://user-images.githubusercontent.com/88230737/213845282-88e27170-647b-4d33-8f76-349bbee9c0b6.png",
       name: "To Do List",
       desc: "Built with vanilla JS, apart from the basic functionality, this project includes comprehensive custom form validation built with constraint validation API",
-    },
-    {
-      id: 7,
-      live: "https://just2102.github.io/Etch-a-Sketch/",
-      github: "https://github.com/just2102/Etch-a-Sketch",
-      img: "https://user-images.githubusercontent.com/88230737/213756060-0abab588-8af4-46ed-87c2-3a9ac8ead11d.png",
-      name: "Etch a Sketch",
-      desc: "A simple etch-a-sketch. One of my first projects",
     },
   ]);
   return <Portfolio repos={repos} />;
