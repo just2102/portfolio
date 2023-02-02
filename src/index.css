@@ -127,7 +127,19 @@ code {
   min-height: 100vh;
   text-align: center;
   padding:15px;
+  position: relative;
+  background-color: rgb(15, 23, 42,0.2);
 }
+
+/* canvas */
+.canvas {
+  position: absolute;
+  /* height: 100vh;
+  width:98%; */
+  z-index: 0;
+  border: 0;
+}
+/*  */
 .homepage .text {
   border-radius: 10px;
   font-family: "quicksandbold";
