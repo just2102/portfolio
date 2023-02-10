@@ -21,7 +21,7 @@ const Home = () => {
       <Canvas></Canvas>
       <div className="text bg-slate-900">
         <h1>
-          Hi, I'm <span className="text-sky-500">Eli</span>
+          Hi, I'm <span className="text-sky-500">Ilia</span>
         </h1>
         <p>Frontend Developer</p>
         <a href="https://github.com/just2102">
