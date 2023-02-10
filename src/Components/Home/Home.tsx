@@ -2,6 +2,8 @@ import react from "../../img/react.png";
 import redux from "../../img/redux.svg";
 import ts from "../../img/ts.png";
 import js from "../../img/js.png";
+import node from "../../img/nodejs.svg"
+import mongo from "../../img/mongodb.svg"
 import css from "../../img/css.png";
 import html from "../../img/html.png";
 import github from "../../img/github-mark-white.svg";
@@ -9,7 +11,7 @@ import Tech from "./Tech";
 import Canvas from "./Canvas.jsx";
 
 const Home = () => {
-  const stackImages = [react, redux, ts, js, css, html];
+  const stackImages = [react, redux, ts, js, node, mongo, css];
   let stackMapped = stackImages.map((tech,index) => {
     return (
      <Tech tech={tech} key={index}></Tech>
