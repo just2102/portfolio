@@ -25,7 +25,7 @@ const Home = () => {
         <h1>
           Hi, I'm <span className="text-sky-500">Ilia</span>
         </h1>
-        <p>Frontend Developer</p>
+        <p>Fullstack Developer</p>
         <a href="https://github.com/just2102">
           <img src={github} alt="" />
         </a>

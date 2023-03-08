@@ -8,7 +8,7 @@ import logo2 from "../../img/logo2.svg"
 const Sidebar = () => {
   const [active, setActive] = useState(false)
   const location = useLocation()
-  let name: string = "Eli Krasiuchenko";
+  let name: string = "Ilia Krasiuchenko";
   let year: number = new Date().getFullYear();
   type Link = {
     link: string,

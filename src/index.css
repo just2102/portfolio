@@ -109,7 +109,10 @@ code {
 
 /* main content */
 .content_wrapper {
-  min-height: 100vh;
+  min-height: 105vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* homepage */
