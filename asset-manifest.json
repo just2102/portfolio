@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.69bbce71.css",
-    "main.js": "/portfolio/static/js/main.671f50a5.js",
+    "main.css": "/portfolio/static/css/main.27d7f69e.css",
+    "main.js": "/portfolio/static/js/main.f7ffe41c.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/react.png": "/portfolio/static/media/react.35639ed930462bfcd544.png",
     "static/media/armwrestler-webfont.woff": "/portfolio/static/media/armwrestler-webfont.e43c9d77a81471ba5cff.woff",
@@ -19,12 +19,12 @@
     "static/media/github-mark-white.svg": "/portfolio/static/media/github-mark-white.97ed8e7eef60d61ca469881dd6f34511.svg",
     "static/media/mongodb.svg": "/portfolio/static/media/mongodb.75bc9cf897d5dc5e908cdc327f713126.svg",
     "index.html": "/portfolio/index.html",
-    "main.69bbce71.css.map": "/portfolio/static/css/main.69bbce71.css.map",
-    "main.671f50a5.js.map": "/portfolio/static/js/main.671f50a5.js.map",
+    "main.27d7f69e.css.map": "/portfolio/static/css/main.27d7f69e.css.map",
+    "main.f7ffe41c.js.map": "/portfolio/static/js/main.f7ffe41c.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69bbce71.css",
-    "static/js/main.671f50a5.js"
+    "static/css/main.27d7f69e.css",
+    "static/js/main.f7ffe41c.js"
   ]
 }
